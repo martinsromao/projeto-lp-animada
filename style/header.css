@@ -1,0 +1,32 @@
+header{
+  padding: 12px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img{
+  width: 2rem;
+  height: 2rem;
+  transition: transform 500ms ;
+  }
+  .shop{
+   display: flex;
+   align-items: center;
+   position: relative;
+  }
+  span{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -13px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: var(--snitap-sun);
+  }
+  img[src*="Logo"]:hover {
+    transform: rotate(90deg);
+  }
+  img[src*="shopping-bag-01"]:hover {
+    transform: rotate(-30deg);}
+}
