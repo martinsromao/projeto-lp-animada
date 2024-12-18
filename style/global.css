@@ -15,7 +15,7 @@
   --highlights: #000000;
   --background:#FAFAFA;
   --font-famaly:  "Syne", sans-serif;
-  --h1:800 64px/125% var(--font-famaly);
+  --h1:600 64px/125% var(--font-famaly);
   --h2:800 40px/120% var(--font-famaly);
    
   --font-famaly2:"Montserrat", sans-serif;
@@ -31,9 +31,9 @@
   button{
     font: var(--button-label);
   }
-  span{
+   span{
     font: var(--span);
-  }
+  } 
   a{
     text-decoration: none;
     color: inherit;
