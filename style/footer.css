@@ -69,3 +69,20 @@ footer{
     }
   }
 }
+@media screen and (max-width: 70rem) {
+  footer{
+    display: block;
+  }
+    nav{
+      flex-direction: column;
+      margin-block: 1.5rem;
+      align-items: center;
+      span{
+        margin-block: 1.5rem;
+      }
+      
+      gap: 2rem;
+  }
+  
+  
+}
